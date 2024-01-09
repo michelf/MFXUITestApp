@@ -3,21 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1EF3BEDD2B431AAC00294E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */; };
 		1EF3BEDF2B431AAD00294E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */; };
-		1EF3BEE22B431AAD00294E7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEE02B431AAD00294E7D /* MainMenu.xib */; };
+		1EF3BEF12B431C7200294E7D /* MFXUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1EF3BEF02B431C7200294E7D /* MFXUI */; };
+		1EF3BEF32B431D0000294E7D /* View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3BEF22B431D0000294E7D /* View Controller.swift */; };
+		1EF3BEF52B431FCB00294E7D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3BEF42B431FCB00294E7D /* Model.swift */; };
+		1EF3BEF72B45A7AB00294E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEF62B45A7AB00294E7D /* LaunchScreen.storyboard */; platformFilter = ios; };
+		1EF3BEF92B45A7C500294E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEF82B45A7C500294E7D /* Main.storyboard */; platformFilter = ios; };
+		1EF3BEFB2B45A84400294E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEFA2B45A84400294E7D /* Main.storyboard */; platformFilters = (tvos, ); };
+		1EF3BF242B45ACD200294E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BF232B45ACB500294E7D /* Main.storyboard */; platformFilters = (macos, ); };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1EF3BED92B431AAC00294E7D /* MFXUITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFXUITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF3BED92B431AAC00294E7D /* MFXUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFXUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1EF3BEE12B431AAD00294E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1EF3BEE32B431AAD00294E7D /* MFXUITestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MFXUITestApp.entitlements; sourceTree = "<group>"; };
+		1EF3BEF22B431D0000294E7D /* View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Controller.swift"; sourceTree = "<group>"; };
+		1EF3BEF42B431FCB00294E7D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1EF3BEF62B45A7AB00294E7D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EF3BEF82B45A7C500294E7D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1EF3BEFA2B45A84400294E7D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1EF3BF012B45A90000294E7D /* MFXUI-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MFXUI-App-Info.plist"; sourceTree = "<group>"; };
+		1EF3BF232B45ACB500294E7D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF3BEF12B431C7200294E7D /* MFXUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +47,7 @@
 		1EF3BED02B431AAC00294E7D = {
 			isa = PBXGroup;
 			children = (
+				1EF3BF012B45A90000294E7D /* MFXUI-App-Info.plist */,
 				1EF3BEDB2B431AAC00294E7D /* MFXUITestApp */,
 				1EF3BEDA2B431AAC00294E7D /* Products */,
 			);
@@ -42,7 +56,7 @@
 		1EF3BEDA2B431AAC00294E7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EF3BED92B431AAC00294E7D /* MFXUITestApp.app */,
+				1EF3BED92B431AAC00294E7D /* MFXUI App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,19 +65,48 @@
 			isa = PBXGroup;
 			children = (
 				1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */,
+				1EF3BEF22B431D0000294E7D /* View Controller.swift */,
+				1EF3BEF42B431FCB00294E7D /* Model.swift */,
 				1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */,
-				1EF3BEE02B431AAD00294E7D /* MainMenu.xib */,
+				1EF3BEFC2B45A87400294E7D /* macOS */,
+				1EF3BEFD2B45A88300294E7D /* iOS */,
+				1EF3BEFE2B45A88F00294E7D /* tvOS */,
 				1EF3BEE32B431AAD00294E7D /* MFXUITestApp.entitlements */,
 			);
 			path = MFXUITestApp;
 			sourceTree = "<group>";
 		};
+		1EF3BEFC2B45A87400294E7D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1EF3BF232B45ACB500294E7D /* Main.storyboard */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		1EF3BEFD2B45A88300294E7D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1EF3BEF62B45A7AB00294E7D /* LaunchScreen.storyboard */,
+				1EF3BEF82B45A7C500294E7D /* Main.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1EF3BEFE2B45A88F00294E7D /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1EF3BEFA2B45A84400294E7D /* Main.storyboard */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EF3BED82B431AAC00294E7D /* MFXUITestApp */ = {
+		1EF3BED82B431AAC00294E7D /* MFXUI App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF3BEE62B431AAD00294E7D /* Build configuration list for PBXNativeTarget "MFXUITestApp" */;
+			buildConfigurationList = 1EF3BEE62B431AAD00294E7D /* Build configuration list for PBXNativeTarget "MFXUI App" */;
 			buildPhases = (
 				1EF3BED52B431AAC00294E7D /* Sources */,
 				1EF3BED62B431AAC00294E7D /* Frameworks */,
@@ -73,9 +116,12 @@
 			);
 			dependencies = (
 			);
-			name = MFXUITestApp;
+			name = "MFXUI App";
+			packageProductDependencies = (
+				1EF3BEF02B431C7200294E7D /* MFXUI */,
+			);
 			productName = MFXUITestApp;
-			productReference = 1EF3BED92B431AAC00294E7D /* MFXUITestApp.app */;
+			productReference = 1EF3BED92B431AAC00294E7D /* MFXUI App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,11 +148,14 @@
 				Base,
 			);
 			mainGroup = 1EF3BED02B431AAC00294E7D;
+			packageReferences = (
+				1EF3BEEF2B431C7200294E7D /* XCLocalSwiftPackageReference "../MFXUI" */,
+			);
 			productRefGroup = 1EF3BEDA2B431AAC00294E7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EF3BED82B431AAC00294E7D /* MFXUITestApp */,
+				1EF3BED82B431AAC00294E7D /* MFXUI App */,
 			);
 		};
 /* End PBXProject section */
@@ -117,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF3BEDF2B431AAD00294E7D /* Assets.xcassets in Resources */,
-				1EF3BEE22B431AAD00294E7D /* MainMenu.xib in Resources */,
+				1EF3BEF92B45A7C500294E7D /* Main.storyboard in Resources */,
+				1EF3BEF72B45A7AB00294E7D /* LaunchScreen.storyboard in Resources */,
+				1EF3BF242B45ACD200294E7D /* Main.storyboard in Resources */,
+				1EF3BEFB2B45A84400294E7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,22 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF3BEF52B431FCB00294E7D /* Model.swift in Sources */,
 				1EF3BEDD2B431AAC00294E7D /* AppDelegate.swift in Sources */,
+				1EF3BEF32B431D0000294E7D /* View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1EF3BEE02B431AAD00294E7D /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EF3BEE12B431AAD00294E7D /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1EF3BEE42B431AAD00294E7D /* Debug */ = {
@@ -198,14 +241,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13;
 			};
 			name = Debug;
 		};
@@ -255,12 +300,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 13;
 			};
 			name = Release;
 		};
@@ -276,9 +323,13 @@
 				DEVELOPMENT_TEAM = R5LCPCXJPZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MFXUI-App-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -286,8 +337,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.michelf.MFXUITestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -303,9 +357,13 @@
 				DEVELOPMENT_TEAM = R5LCPCXJPZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MFXUI-App-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -313,8 +371,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.michelf.MFXUITestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
@@ -330,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EF3BEE62B431AAD00294E7D /* Build configuration list for PBXNativeTarget "MFXUITestApp" */ = {
+		1EF3BEE62B431AAD00294E7D /* Build configuration list for PBXNativeTarget "MFXUI App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EF3BEE72B431AAD00294E7D /* Debug */,
@@ -340,6 +401,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1EF3BEEF2B431C7200294E7D /* XCLocalSwiftPackageReference "../MFXUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../MFXUI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EF3BEF02B431C7200294E7D /* MFXUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MFXUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EF3BED12B431AAC00294E7D /* Project object */;
 }
