@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E48B6DA2B8A8054004E5B64 /* MFXUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E48B6D92B8A8054004E5B64 /* MFXUI */; };
 		1EB8588D2B8A173B008100F9 /* AuthDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8588C2B8A173B008100F9 /* AuthDialog.swift */; };
 		1EF3BEDD2B431AAC00294E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */; };
 		1EF3BEDF2B431AAD00294E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		1EB8588C2B8A173B008100F9 /* AuthDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDialog.swift; sourceTree = "<group>"; };
+		1EB858902B8A7FE2008100F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1EF3BED92B431AAC00294E7D /* MFXUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFXUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E48B6DA2B8A8054004E5B64 /* MFXUI in Frameworks */,
 				1EF3BEF12B431C7200294E7D /* MFXUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +52,7 @@
 		1EF3BED02B431AAC00294E7D = {
 			isa = PBXGroup;
 			children = (
+				1EB858902B8A7FE2008100F9 /* README.md */,
 				1EF3BF012B45A90000294E7D /* MFXUI-App-Info.plist */,
 				1EF3BEDB2B431AAC00294E7D /* MFXUITestApp */,
 				1EF3BEDA2B431AAC00294E7D /* Products */,
@@ -122,6 +126,7 @@
 			name = "MFXUI App";
 			packageProductDependencies = (
 				1EF3BEF02B431C7200294E7D /* MFXUI */,
+				1E48B6D92B8A8054004E5B64 /* MFXUI */,
 			);
 			productName = MFXUITestApp;
 			productReference = 1EF3BED92B431AAC00294E7D /* MFXUI App.app */;
@@ -152,7 +157,7 @@
 			);
 			mainGroup = 1EF3BED02B431AAC00294E7D;
 			packageReferences = (
-				1EF3BEEF2B431C7200294E7D /* XCLocalSwiftPackageReference "../MFXUI" */,
+				1E48B6D82B8A8054004E5B64 /* XCRemoteSwiftPackageReference "MFXUI" */,
 			);
 			productRefGroup = 1EF3BEDA2B431AAC00294E7D /* Products */;
 			projectDirPath = "";
@@ -406,14 +411,23 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		1EF3BEEF2B431C7200294E7D /* XCLocalSwiftPackageReference "../MFXUI" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../MFXUI;
+/* Begin XCRemoteSwiftPackageReference section */
+		1E48B6D82B8A8054004E5B64 /* XCRemoteSwiftPackageReference "MFXUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michelf/MFXUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1E48B6D92B8A8054004E5B64 /* MFXUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E48B6D82B8A8054004E5B64 /* XCRemoteSwiftPackageReference "MFXUI" */;
+			productName = MFXUI;
+		};
 		1EF3BEF02B431C7200294E7D /* MFXUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MFXUI;
