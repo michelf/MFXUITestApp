@@ -25,6 +25,7 @@ class ViewController: MFViewController {
 						MFFormRow(label: "User Name") {
 							MFTextField()
 								.editing(\.userName, of: model)
+								.constrainingMinSize(width: 150, height: nil)
 						}
 						if #available(tvOS 17, *) {
 							MFFormRow(label: "Role") {
@@ -40,12 +41,17 @@ class ViewController: MFViewController {
 					}.inset(by: 4)
 				}
 
-//				MFFormSection(title: "Test") {
-//					MFTextField()
-//						.editing(\.userName, of: model)
-//				}
+				UXView.separator(axis: .horizontal)
+				UXButton(title: "Authenticate", style: .large)
+					.onClick { [weak self] _ in
+						#if os(macOS)
+						self?.presentAsSheet(AuthDialog())
+						#else
+						self?.present(AuthDialog(), animated: true)
+						#endif
+					}
 			}
-			.inset(by: 10)
+			.inset(by: 20)
 		}
 		.withFlexibility(horizontal: false, vertical: false)
 	}

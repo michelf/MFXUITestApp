@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB8588D2B8A173B008100F9 /* AuthDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8588C2B8A173B008100F9 /* AuthDialog.swift */; };
 		1EF3BEDD2B431AAC00294E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */; };
 		1EF3BEDF2B431AAD00294E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */; };
 		1EF3BEF12B431C7200294E7D /* MFXUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1EF3BEF02B431C7200294E7D /* MFXUI */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EB8588C2B8A173B008100F9 /* AuthDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDialog.swift; sourceTree = "<group>"; };
 		1EF3BED92B431AAC00294E7D /* MFXUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFXUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				1EF3BEDC2B431AAC00294E7D /* AppDelegate.swift */,
 				1EF3BEF22B431D0000294E7D /* View Controller.swift */,
 				1EF3BEF42B431FCB00294E7D /* Model.swift */,
+				1EB8588C2B8A173B008100F9 /* AuthDialog.swift */,
 				1EF3BEDE2B431AAD00294E7D /* Assets.xcassets */,
 				1EF3BEFC2B45A87400294E7D /* macOS */,
 				1EF3BEFD2B45A88300294E7D /* iOS */,
@@ -182,6 +185,7 @@
 			files = (
 				1EF3BEF52B431FCB00294E7D /* Model.swift in Sources */,
 				1EF3BEDD2B431AAC00294E7D /* AppDelegate.swift in Sources */,
+				1EB8588D2B8A173B008100F9 /* AuthDialog.swift in Sources */,
 				1EF3BEF32B431D0000294E7D /* View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
